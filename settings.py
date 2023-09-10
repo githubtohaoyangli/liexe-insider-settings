@@ -9,7 +9,7 @@ if a==True:
 #with open some  files
 # skip canary dev beta 
 while True:
-    print('Liexe insider settings(OS build : 1.3.2 (watool build) )')
+    print('Liexe insider settings(OS build : 1.5.2 (watool and update build) )')
     print('1.Skip Channel')
     print('2.Canary Channel')
     print('3.Dev Channel')
@@ -43,9 +43,17 @@ while True:
         os.mkdir('C:\\liexee\\watool\\enabled ID')
         #crate widgets folder
         os.mkdir('C:\\liexee\\widgets\\SOUR')
+        #crate update folder
+        os.mkdir('C:\\liexee\\update')
+        os.mkdir('C:\\liexee\\update\\log')
+        os.mkdir('C:\\liexee\\update\\download')
+        os.mkdir('C:\\liexee\\update\\tools')
+        os.mkdir('C:\\liexee\\update\\check')
         time.sleep(0.5)
         os.system('pause')
         exit(0)
+        
+        
     elif b == '2':
         print('Applying Changes......')
         #crate liexee folder
@@ -68,6 +76,12 @@ while True:
         os.mkdir('C:\\liexee\\watool\\enabled ID')
         #crate widgets folder
         os.mkdir('C:\\liexee\\widgets\\SOUR')
+        #crate update folder
+        os.mkdir('C:\\liexee\\update')
+        os.mkdir('C:\\liexee\\update\\log')
+        os.mkdir('C:\\liexee\\update\\download')
+        os.mkdir('C:\\liexee\\update\\tools')
+        os.mkdir('C:\\liexee\\update\\check')
         time.sleep(0.5)
         os.system('pause')
         exit(0)
@@ -93,6 +107,12 @@ while True:
         os.mkdir('C:\\liexee\\watool\\enabled ID')
         #crate widgets folder
         os.mkdir('C:\\liexee\\widgets\\SOUR')
+        #crate update folder
+        os.mkdir('C:\\liexee\\update')
+        os.mkdir('C:\\liexee\\update\\log')
+        os.mkdir('C:\\liexee\\update\\download')
+        os.mkdir('C:\\liexee\\update\\tools')
+        os.mkdir('C:\\liexee\\update\\check')
         time.sleep(0.5)
         os.system('pause')
         exit(0)
@@ -118,6 +138,12 @@ while True:
         #crate widgets folder
         os.mkdir('C:\\liexee\\widgets')
         os.mkdir('C:\\liexee\\widgets\\SOUR')
+        #crate update folder
+        os.mkdir('C:\\liexee\\update')
+        os.mkdir('C:\\liexee\\update\\log')
+        os.mkdir('C:\\liexee\\update\\download')
+        os.mkdir('C:\\liexee\\update\\tools')
+        os.mkdir('C:\\liexee\\update\\check')
         time.sleep(0.5)
         os.system('pause')
         exit(0)
@@ -143,6 +169,12 @@ while True:
         #crate widgets folder
         os.mkdir('C:\\liexee\\widgets')
         os.mkdir('C:\\liexee\\widgets\\SOUR')
+        #crate update folder
+        os.mkdir('C:\\liexee\\update')
+        os.mkdir('C:\\liexee\\update\\log')
+        os.mkdir('C:\\liexee\\update\\download')
+        os.mkdir('C:\\liexee\\update\\tools')
+        os.mkdir('C:\\liexee\\update\\check')
         time.sleep(0.5)
         os.system('pause')
         exit(0)
